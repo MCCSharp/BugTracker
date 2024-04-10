@@ -1,0 +1,56 @@
+﻿@model IEnumerable<BugTracker.Models.Mitarbeiter>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Admin Menu</h1>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+                <div class="card-body">
+                    <h4 class="card-title"><a class="nav-link" asp-area="" asp-controller=" Admin" asp-action="MitarbeiterIndex">Mitarbeiter</a></h4>
+                </div>
+            </div>
+            <div class="colcol-sm-4">
+                <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+                    <div class="card-body">
+                        <h4 class="card-title"><a class="nav-link" asp-area="" asp-controller=" Admin" asp-action="ProjectIndex">Project</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+                        <div class="card-body">
+                            <h4 class="card-title"><a class="nav-link" asp-area="" asp-controller=" Admin" asp-action="LogIndex">Log</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+                        <div class="card-body">
+                            <h4 class="card-title"><a class="nav-link" asp-area="" asp-controller=" Admin" asp-action="TicketIndex">Ticket</a></h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+                        <div class="card-body">
+                            <h4 class="card-title"> <a class="nav-link" asp-area="" asp-controller=" Admin" asp-action="ModuleIndex">Module</a></h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
